@@ -93,7 +93,6 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus, input[type=
 /* Button Styles */
 button {
     font-size: 0.99rem;
-    width: 9rem;
     height: 3.3rem;
     background-color: #223fa9;
     margin: 20px 0px;
