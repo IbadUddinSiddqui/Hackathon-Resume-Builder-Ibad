@@ -325,13 +325,25 @@ button:hover {
     margin-right: -25px;
     width: 100%;
     max-width: 300px;
-    margin-top: -20vh;
+    margin-top: -17vh;
   }
   
   @media screen and (max-width: 1024px) {
     .output-contact {
+      margin-left: 24vw; /* Less upward movement on medium screens */
+      margin-top: -4vh;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .output-contact {
+      margin-left: 24vw; /* Less upward movement on medium screens */
+      margin-top: -4vh;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .output-contact {
       margin-left: 30vw; /* Less upward movement on medium screens */
-      margin-top: -20vh;
+      margin-top: -13vh;
     }
   }
   
@@ -340,13 +352,12 @@ button:hover {
       justify-content: center; /* Center the contact section on smaller screens */
     }
   
-    .output-contact {
-      margin-top: 0px; /* Reset margin for small screens */
-    }
+
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 750px) {
     .output-contact {
+       
       margin-top: 10px; /* Move it slightly downward if necessary on very small screens */
       margin-left: 0vw;
     }
